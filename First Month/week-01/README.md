@@ -14,7 +14,7 @@ Solutions for the first week of Edversity's Python training, including six exerc
 
 Each practice-set script contains its five exercises in lesson order. Run one file at a time to work through it step by step. Assertions check the stated expected results and key edge cases.
 
-## Questions matched to the solutions
+## Questions & solutions
 
 ### `01_values_variables.py`
 
@@ -73,13 +73,13 @@ Print each item priced over Rs 1,000 and calculate the total price of all four i
 From the workspace root in PowerShell, for example:
 
 ```powershell
-python "First Month/week-01/live-session/01_values_variables.py"
+python "First Month/week-01/01_values_variables.py"
 ```
 
 Run another set by replacing the filename. To run the daily task:
 
 ```powershell
-python "First Month/week-01/live-session/daily_task.py"
+python "First Month/week-01/daily_task.py"
 ```
 
 Python 3.13 works with these files; no extra packages are needed.
