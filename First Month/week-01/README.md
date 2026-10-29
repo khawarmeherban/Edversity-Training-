@@ -1,4 +1,4 @@
-# Week 1: Live Session Part 1
+# Week 1: Part 1
 
 Solutions for the first week of Edversity's Python training, including six exercise sets and the daily order-checker task.
 
