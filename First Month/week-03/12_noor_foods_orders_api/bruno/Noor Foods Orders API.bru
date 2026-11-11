@@ -1,0 +1,43 @@
+meta {
+  name: Noor Foods Orders API
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/health
+  body: none
+  auth: none
+}
+
+###
+
+get {
+  url: {{baseUrl}}/orders?customer=noor%20foods&min_total=100
+  body: none
+  auth: none
+}
+
+###
+
+get {
+  url: {{baseUrl}}/summary
+  body: none
+  auth: none
+}
+
+###
+
+post {
+  url: {{baseUrl}}/orders
+  body: json
+  auth: none
+  
+  {
+    "customer_name": "Noor Foods",
+    "item": "Fresh rice",
+    "quantity": 2,
+    "total": 520,
+    "status": "pending"
+  }
+}

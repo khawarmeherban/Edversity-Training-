@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    container_name: noor-foods-api
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:///./noor_foods.db
+    volumes:
+      - .:/app
