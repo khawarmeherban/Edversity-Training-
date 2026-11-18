@@ -1,0 +1,11 @@
+meta {
+  name: List products
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/products?category=rice&max_price=3000
+  body: none
+  auth: none
+}

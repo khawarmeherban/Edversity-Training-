@@ -1,0 +1,19 @@
+meta {
+  name: Create product
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{baseUrl}}/products
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Chakki atta 10kg",
+    "price": 1800,
+    "category": "flour"
+  }
+}

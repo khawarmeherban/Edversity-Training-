@@ -1,0 +1,17 @@
+meta {
+  name: Update product price
+  type: http
+  seq: 6
+}
+
+patch {
+  url: {{baseUrl}}/products/P103
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "price": 350
+  }
+}
