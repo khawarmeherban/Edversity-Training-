@@ -21,8 +21,10 @@ This folder contains the lesson-by-lesson implementation for Week 3.
 
 ## Assignment project
 
-The complete Noor Foods Orders API lives in:
+The Week 3 database exercise is:
 
 - [12_noor_foods_orders_api](12_noor_foods_orders_api/README.md)
 
-It includes FastAPI, validation, database work, and pytest-based tests.
+The separate in-memory products API assignment is in the repository root:
+
+- [products-api](../../../products-api/README.md)
